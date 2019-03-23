@@ -28,35 +28,36 @@ namespace RockPaperScissorsLizardSpock
         //Define what happens when you click each-button
         private void btn_rock_Click(object sender, EventArgs e)
         {
-            pictureBox_humMove.Image = new Bitmap(@"C:\Users\gzdie\Documents\IT\Projects\Visual Studio\Games\RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock\images\Hause\H_rock.jpg");
+            pictureBox_humMove.Image = new Bitmap(@"RockPaperScissorsLizardSpock/RockPaperScissorsLizardSpock/images/Hause/H_rock.jpg
+      ");
             hum_choice = 0;
             ButtonClickCommonActs();
         }
 
         private void btn_paper_Click(object sender, EventArgs e)
         {
-            pictureBox_humMove.Image = new Bitmap(@"C:\Users\gzdie\Documents\IT\Projects\Visual Studio\Games\RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock\images\Hause\H_paper.jpg");
+            pictureBox_humMove.Image = new Bitmap(@"RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock\images\Hause\H_paper.jpg");
             hum_choice = 1;
             ButtonClickCommonActs();
         }
 
         private void btn_scissors_Click(object sender, EventArgs e)
         {
-            pictureBox_humMove.Image = new Bitmap(@"C:\Users\gzdie\Documents\IT\Projects\Visual Studio\Games\RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock\images\Hause\H_scissors.jpg");
+            pictureBox_humMove.Image = new Bitmap(@"RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock\images\Hause\H_scissors.jpg");
             hum_choice = 2;
             ButtonClickCommonActs();
         }
 
         private void btn_lizard_Click(object sender, EventArgs e)
         {
-            pictureBox_humMove.Image = new Bitmap(@"C:\Users\gzdie\Documents\IT\Projects\Games\RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock\images\Hause\H_lizard_head.png");
+            pictureBox_humMove.Image = new Bitmap(@"RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock\images\Hause\H_lizard_head.png");
             hum_choice = 3;
             ButtonClickCommonActs();
         }
 
         private void btn_spock_Click(object sender, EventArgs e)
         {
-            pictureBox_humMove.Image = new Bitmap(@"C:\Users\gzdie\Documents\IT\Projects\Games\RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock\images\Hause\H_spock.png");
+            pictureBox_humMove.Image = new Bitmap(@"RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock\images\Hause\H_spock.png");
             hum_choice = 4;
             ButtonClickCommonActs();
         }        
@@ -78,27 +79,27 @@ namespace RockPaperScissorsLizardSpock
            switch(com_choice)
             {
                 case 0:
-                    pictureBox_comMove.Image = new Bitmap(@"C:\Users\gzdie\Documents\IT\Projects\Games\RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock\images\Hause\H_rock.jpg");
+                    pictureBox_comMove.Image = new Bitmap(@"RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock\images\Hause\H_rock.jpg");
                     pictureBox_comMove.SizeMode = PictureBoxSizeMode.StretchImage;
                     break;
 
                 case 1:
-                    pictureBox_comMove.Image = new Bitmap(@"C:\Users\gzdie\Documents\IT\Projects\Games\RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock\images\Hause\H_paper.jpg");
+                    pictureBox_comMove.Image = new Bitmap(@"RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock\images\Hause\H_paper.jpg");
                     pictureBox_comMove.SizeMode = PictureBoxSizeMode.StretchImage;
                     break;
 
                 case 2:
-                    pictureBox_comMove.Image = new Bitmap(@"C:\Users\gzdie\Documents\IT\Projects\Games\RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock\images\Hause\H_scissors.jpg");
+                    pictureBox_comMove.Image = new Bitmap(@"RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock\images\Hause\H_scissors.jpg");
                     pictureBox_comMove.SizeMode = PictureBoxSizeMode.StretchImage;
                     break;
 
                 case 3:
-                    pictureBox_comMove.Image = new Bitmap(@"C:\Users\gzdie\Documents\IT\Projects\Games\RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock\images\Hause\H_lizard_head.png");
+                    pictureBox_comMove.Image = new Bitmap(@"RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock\images\Hause\H_lizard_head.png");
                     pictureBox_comMove.SizeMode = PictureBoxSizeMode.StretchImage;
                     break;
 
                 case 4:
-                    pictureBox_comMove.Image = new Bitmap(@"C:\Users\gzdie\Documents\IT\Projects\Games\RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock\images\Hause\H_spock.png");
+                    pictureBox_comMove.Image = new Bitmap(@"RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock\images\Hause\H_spock.png");
                     pictureBox_comMove.SizeMode = PictureBoxSizeMode.StretchImage;
                     break;
             }
