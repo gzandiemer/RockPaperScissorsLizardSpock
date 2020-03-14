@@ -117,54 +117,54 @@ namespace RockPaperScissorsLizardSpock
           
 
             if (hum_choice == com_choice)
-                lbl_scoreboard.Text = " Well , great minds think alike !";
+                lbl_scoreboard.Text = " Well, great minds think alike!";
                 
             
             else if (h == 0 && c == 2 )
             {
-                lbl_scoreboard.Text = "You Rock !";
+                lbl_scoreboard.Text = "You Rock!";
                 humScore++;
                 lbl_humScore.Text = humScore.ToString();              
             }
 
             else if (h == 0 && c == 3)
             {
-                lbl_scoreboard.Text = "Genius !";
+                lbl_scoreboard.Text = "Genius!";
                 humScore++;
                 lbl_humScore.Text = humScore.ToString();   
             }
 
             else if (h == 1 && c == 0)
             {
-                lbl_scoreboard.Text = "Great job , buddy !";
+                lbl_scoreboard.Text = "Great job , buddy!";
                 humScore++;
                 lbl_humScore.Text = humScore.ToString();
             }
 
             else if (h == 1 && c == 4)
             {
-                lbl_scoreboard.Text = "That deserves an Applause !";
+                lbl_scoreboard.Text = "That deserves an Applause!";
                 humScore++;
                 lbl_humScore.Text = humScore.ToString();
             }
 
             else if (h == 2 && c == 1)
             {
-                lbl_scoreboard.Text = "Wow ! Look at you !";
+                lbl_scoreboard.Text = "Wow! Look at you!";
                 humScore++;
                 lbl_humScore.Text = humScore.ToString();
             }
 
             else if (h == 2 && c == 3)
             {
-                lbl_scoreboard.Text = "Hell yeah !";
+                lbl_scoreboard.Text = "Hell yeah!";
                 humScore++;
                 lbl_humScore.Text = humScore.ToString();
             }
 
             else if (h == 3 && c == 1)
             {
-                lbl_scoreboard.Text = "Yeehaw !";
+                lbl_scoreboard.Text = "Yeehaw!";
                 humScore++;
                 lbl_humScore.Text = humScore.ToString();
             }
@@ -179,7 +179,7 @@ namespace RockPaperScissorsLizardSpock
             else if (h == 4 && c == 0)
                 
             {
-                lbl_scoreboard.Text = "You're killing it !";
+                lbl_scoreboard.Text = "You're killing it!";
                 humScore++;
                 lbl_humScore.Text = humScore.ToString();
             }
@@ -187,14 +187,14 @@ namespace RockPaperScissorsLizardSpock
             else if (h == 4 && c == 2)
 
             {
-                lbl_scoreboard.Text = "Go tiger !";
+                lbl_scoreboard.Text = "Go tiger!";
                 humScore++;
                 lbl_humScore.Text = humScore.ToString();
             }
 
             else
             {
-                lbl_scoreboard.Text = "Oops ! Bad move !";
+                lbl_scoreboard.Text = "Oops! Bad move!";
                 comScore++;
                 lbl_comScore.Text = comScore.ToString();
             }
